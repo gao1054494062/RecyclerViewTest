@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="216dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@mipmap/card_bg">
+
+        <ImageView
+            android:id="@+id/entrance_image"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_margin="2dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/entrance_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:singleLine="true"
+            android:layout_gravity="center"
+            android:textColor="#FFFFEBEE"
+            android:textSize="12dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_trans_divider"/>
+
+</FrameLayout>
